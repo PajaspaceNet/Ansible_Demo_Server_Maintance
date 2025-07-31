@@ -1,0 +1,4 @@
+- name: Ensure logrotate is installed
+  apt:
+    name: logrotate
+    state: present

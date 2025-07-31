@@ -1,0 +1,10 @@
+- name: Ensure admin user exists
+  user:
+    name: admin
+    groups: sudo
+    state: present
+
+- name: Add authorized key for admin
+  authorized_key:
+    user: admin
+    key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu... JENOM PRIKLAD ,JUST EXAMPLE"
