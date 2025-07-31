@@ -11,23 +11,27 @@ Tento repozitář obsahuje základní playbook pro běžnou správu serveru:
 
 # struktura projektu
 
-Ansible_Demo_Server_Maintenance <br> 
-├── inventory <br>
-├── playbook.yml<br>
-├── roles/<br>
-│   ├── update/<br>
-│   │   └── tasks/<br>
-│   │       └── main.yml<br>
-│   ├── users/<br>
-│   │   └── tasks/<br>
-│   │       └── main.yml<br>
-│   ├── logrotate/<br>
-│   │   └── tasks/<br>
-│   │       └── main.yml<br>
-│   ├── firewall/<br>
-│   │   └── tasks/<br>
-│   │       └── main.yml<br>
-├── README.md<br>
+<pre>
+
+ansible-server-maintenance/
+├── inventory
+├── playbook.yml
+├── roles/
+│   ├── update/
+│   │   └── tasks/
+│   │       └── main.yml
+│   ├── users/
+│   │   └── tasks/
+│   │       └── main.yml
+│   ├── logrotate/
+│   │   └── tasks/
+│   │       └── main.yml
+│   ├── firewall/
+│   │   └── tasks/
+│   │       └── main.yml
+├── README.md
+
+</pre>
 
 
 
