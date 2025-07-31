@@ -11,7 +11,7 @@ Tento repozitář obsahuje základní playbook pro běžnou správu serveru:
 
 # struktura projektu
 
-Ansible_Demo_Server_Maintanance <br> 
+Ansible_Demo_Server_Maintenance <br> 
 ├── inventory <br>
 ├── playbook.yml<br>
 ├── roles/<br>
